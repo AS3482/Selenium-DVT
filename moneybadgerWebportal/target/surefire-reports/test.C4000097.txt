@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: test.C4000097
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3,396.735 sec <<< FAILURE!
+test(test.C4000097)  Time elapsed: 3,368.053 sec  <<< FAILURE!
+java.lang.AssertionError: Actual TitleZebra Small Office Home Officeis not same as expected TitleError expected [Zebra Small Office Home Office] but found [Error]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at pages.genericMethods.getAndComparePage(genericMethods.java:1413)
+	at test.C4000097.test(C4000097.java:158)
+

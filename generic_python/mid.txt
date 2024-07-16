@@ -1,0 +1,13 @@
+extends baseTest{
+	
+	static WebDriver driver;
+	int ordinalNum;
+	String stepName;
+	String stepTypeName;
+	String stepID;
+	String section;
+	
+	
+	
+	@Test
+	public void 

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: test.C4000378
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.803 sec <<< FAILURE!
+test(test.C4000378)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.Error: Unresolved compilation problem: 
+	ze cannot be resolved
+
+	at test.C4000378.test(C4000378.java:281)
+

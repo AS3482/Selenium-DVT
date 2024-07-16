@@ -1,0 +1,3 @@
+throws InterruptedException, Exception {
+	genericMethods z = new genericMethods(driver);
+		

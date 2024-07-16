@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: test.C4000180
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.797 sec <<< FAILURE!
+test(test.C4000180)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.Error: Unresolved compilation problem: 
+	zf cannot be resolved
+
+	at test.C4000180.test(C4000180.java:318)
+

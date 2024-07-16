@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: test.C4000204
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 89.775 sec <<< FAILURE!
+test(test.C4000204)  Time elapsed: 65.277 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:976)
+	at org.testng.Assert.assertEquals(Assert.java:1010)
+	at pages.genericMethods.checkElement(genericMethods.java:876)
+	at test.C4000204.test(C4000204.java:182)
+

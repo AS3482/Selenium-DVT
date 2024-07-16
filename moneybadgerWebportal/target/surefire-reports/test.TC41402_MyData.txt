@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: test.TC41402_MyData
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.855 sec <<< FAILURE!
+search_MyData(test.TC41402_MyData)  Time elapsed: 3.803 sec  <<< FAILURE!
+org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\selenium\moneybadgerWebportal/files/MyNewFile.txt
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: '48S-TDMSTEST02', ip: '10.48.2.21', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [cb27722c420eca47af61464dcbc55bdf, sendKeysToElement {id=66b2b8ce-a59b-4854-a637-4c9e68079c2e, value=[Ljava.lang.CharSequence;@c00fff0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\AS3482\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://10.80.34.57:4444/sessi..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on WINDOWS (cb27722c420eca47af61464dcbc55bdf)] -> name: uploadFile]
+Session ID: cb27722c420eca47af61464dcbc55bdf
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+	at test.TC41402_MyData.search_MyData(TC41402_MyData.java:26)
+

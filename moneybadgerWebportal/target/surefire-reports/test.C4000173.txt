@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: test.C4000173
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 89.247 sec <<< FAILURE!
+test(test.C4000173)  Time elapsed: 65.599 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Review Privacy Policy] but found [//*[text()='Review Privacy Policy']]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at pages.genericMethods.getTextCompare(genericMethods.java:406)
+	at test.C4000173.test(C4000173.java:195)
+

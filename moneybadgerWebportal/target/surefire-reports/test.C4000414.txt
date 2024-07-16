@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: test.C4000414
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 66.34 sec <<< FAILURE!
+test(test.C4000414)  Time elapsed: 42.193 sec  <<< FAILURE!
+java.lang.AssertionError: Actual TitleSign Inis not same as expected TitleZebra Small Office Home Office expected [Sign In] but found [Zebra Small Office Home Office]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at pages.genericMethods.getAndComparePage(genericMethods.java:1306)
+	at test.C4000414.test(C4000414.java:133)
+

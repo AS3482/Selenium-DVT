@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[this is the execID from testcase 772675]]>
+    </line>
+    <line>
+      <![CDATA[Browser is set chrome]]>
+    </line>
+    <line>
+      <![CDATA[Send Text to an element]]>
+    </line>
+    <line>
+      <![CDATA[Send Text to an element]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the Element ]]>
+    </line>
+    <line>
+      <![CDATA[Actual Title is Zebra Small Office Home Office compared with expected Title Zebra Small Office Home Office]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the Element ]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the Element ]]>
+    </line>
+    <line>
+      <![CDATA[Actual Text is Support compared with expected Text Support]]>
+    </line>
+    <line>
+      <![CDATA[Actual Text is FAQs compared with expected Text FAQs]]>
+    </line>
+    <line>
+      <![CDATA[Actual Text is Contact Us compared with expected Text Contact Us]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the Element ]]>
+    </line>
+    <line>
+      <![CDATA[Actual Title is Zebra Small Office Home Office compared with expected Title Zebra Small Office Home Office]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed]]>
+    </line>
+    <line>
+      <![CDATA[test passed Pass]]>
+    </line>
+    <line>
+      <![CDATA[this is the exec id in listners 772675]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-22T16:06:40 CDT" name="Default suite" finished-at="2023-05-22T16:07:25 CDT" duration-ms="45504">
+    <groups>
+    </groups>
+    <test started-at="2023-05-22T16:06:40 CDT" name="Default test" finished-at="2023-05-22T16:07:25 CDT" duration-ms="45504">
+      <class name="test.C4000014">
+        <test-method is-config="true" signature="execID()[pri:0, instance:test.C4000014@33d512c1]" started-at="2023-05-22T16:06:40 CDT" name="execID" finished-at="2023-05-22T16:06:42 CDT" duration-ms="2882" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is the execID from testcase 772675]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- execID -->
+        <test-method signature="test(org.testng.ITestContext)[pri:0, instance:test.C4000014@33d512c1]" started-at="2023-05-22T16:06:43 CDT" name="test" finished-at="2023-05-22T16:07:15 CDT" duration-ms="32715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5017e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is set chrome]]>
+            </line>
+            <line>
+              <![CDATA[Send Text to an element]]>
+            </line>
+            <line>
+              <![CDATA[Send Text to an element]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the Element ]]>
+            </line>
+            <line>
+              <![CDATA[Actual Title is Zebra Small Office Home Office compared with expected Title Zebra Small Office Home Office]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the Element ]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the Element ]]>
+            </line>
+            <line>
+              <![CDATA[Actual Text is Support compared with expected Text Support]]>
+            </line>
+            <line>
+              <![CDATA[Actual Text is FAQs compared with expected Text FAQs]]>
+            </line>
+            <line>
+              <![CDATA[Actual Text is Contact Us compared with expected Text Contact Us]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the Element ]]>
+            </line>
+            <line>
+              <![CDATA[Actual Title is Zebra Small Office Home Office compared with expected Title Zebra Small Office Home Office]]>
+            </line>
+            <line>
+              <![CDATA[Browser is closed]]>
+            </line>
+            <line>
+              <![CDATA[test passed Pass]]>
+            </line>
+            <line>
+              <![CDATA[this is the exec id in listners 772675]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- test.C4000014 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

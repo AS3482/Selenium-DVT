@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: test.C4000123
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.945 sec <<< FAILURE!
+test(test.C4000123)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.Error: Unresolved compilation problem: 
+	Invalid escape sequence (valid ones are  \b  \t  \n  \f  \r  \"  \'  \\ )
+
+	at test.C4000123.test(C4000123.java:245)
+

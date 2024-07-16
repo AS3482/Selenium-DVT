@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: test.C4000073
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.708 sec <<< FAILURE!
+test(test.C4000073)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.Error: Unresolved compilation problem: 
+	Syntax error on tokens, delete these tokens
+
+	at test.C4000073.test(C4000073.java:175)
+
